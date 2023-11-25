@@ -45,18 +45,18 @@
             </div>
         </header>
 
-        <div id="hero" class="max-w-5xl px-8 pt-16 mx-auto">
-            <div class="grid grid-cols-2 gap-8">
+        <div id="hero" class="max-w-5xl px-8 pt-8 mx-auto md:pt-16">
+            <div class="grid grid-cols-2 gap-2 md:gap-8">
                 <div>
                     <img src="{{ asset('img/autism-boy.jpg') }}" alt="">
                 </div>
                 <div class="self-center text-center">
-                    <h1 class="text-2xl font-bold text-gray-600">Simple Steps, Big Achievements.</h1>
+                    <h1 class="font-bold text-gray-600 md:text-2xl">Simple Steps, Big Achievements.</h1>
 
-                    <div class="mx-auto mt-10 w-72">
-                        <a href="{{ url('register') }}" class="block px-8 py-3 font-bold text-white bg-blue-700 border-b-4 border-blue-900 rounded-md hover:bg-blue-600">Get Started</a>
+                    <div class="mx-auto mt-4 md:mt-10 md:w-72">
+                        <a href="{{ url('register') }}" class="block py-2 text-xs font-bold text-white bg-blue-700 border-b-4 border-blue-900 rounded-md md:text-base md:px-8 md:py-3 hover:bg-blue-600">Get Started</a>
 
-                        <a href="{{ url('login') }}" class="block px-8 py-3 mt-4 font-bold text-blue-700 bg-white border-2 border-b-4 border-gray-200 border-gray-300 rounded-md hover:bg-gray-100">Log In</a>
+                        <a href="{{ url('login') }}" class="block py-2 mt-2 text-xs font-bold text-blue-700 bg-white border-2 border-b-4 border-gray-300 rounded-md md:mt-4 md:text-base md:px-8 md:py-3 hover:bg-gray-100">Log In</a>
                     </div>
                 </div>
             </div>
@@ -108,35 +108,35 @@
           </section>
 
         <div class="bg-gray-100">
-            <div class="max-w-5xl px-8 py-16 mx-auto">
-                <div class="grid grid-cols-4 gap-3">
+            <div class="max-w-5xl px-3 py-10 mx-auto md:py-16 md:px-8">
+                <div class="grid grid-cols-4 gap-1 md:gap-3">
                     <div class="text-center">
-                        <h5 class="text-5xl font-bold text-blue-500">2.6k+</h5>
-                        <p class="mt-2">Worksheets</p>
+                        <h5 class="text-xl font-bold text-blue-500 md:text-5xl">2.6k+</h5>
+                        <p class="mt-2 text-xs md:text-base">Worksheets</p>
                     </div>
                     <div class="text-center">
-                        <h5 class="text-5xl font-bold text-blue-500">13k+</h5>
-                        <p class="mt-2">Pre-registers</p>
+                        <h5 class="text-xl font-bold text-blue-500 md:text-5xl">13k+</h5>
+                        <p class="mt-2 text-xs md:text-base">Pre-registers</p>
                     </div>
                     <div class="text-center">
-                        <h5 class="text-5xl font-bold text-blue-500">1.1k+</h5>
-                        <p class="mt-2">Accounts</p>
+                        <h5 class="text-xl font-bold text-blue-500 md:text-5xl">1.1k+</h5>
+                        <p class="mt-2 text-xs md:text-base">Accounts</p>
                     </div>
                     <div class="text-center">
-                        <h5 class="text-5xl font-bold text-blue-500">$50k+</h5>
-                        <p class="mt-2">Raised</p>
+                        <h5 class="text-xl font-bold text-blue-500 md:text-5xl">$50k+</h5>
+                        <p class="mt-2 text-xs md:text-base">Raised</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="bg-white">
-            <div class="max-w-5xl px-8 py-16 mx-auto">
+            <div class="max-w-5xl px-3 py-10 mx-auto md:px-8 md:py-16">
                 
-                <div class="grid items-center grid-cols-2 gap-16 my-16">
+                <div class="grid items-center grid-cols-2 gap-8 my-8 md:gap-16 md:my-16 ">
                     <div>
-                        <h3 class="text-3xl font-bold text-green-600">group of experts</h3>
-                        <p class="mt-4">
+                        <h3 class="text-lg font-bold text-green-600 md:text-3xl">group of experts</h3>
+                        <p class="mt-4 text-xs md:text-base">
                             TeacherQ brings together a diverse group of autism experts, each contributing their specialized knowledge to create a comprehensive and supportive environment. Our platform values the collective wisdom of these professionals, ensuring that the learning experience is enriched by the expertise of many.
                         </p>
                     </div>
@@ -145,23 +145,23 @@
                     </div>
                 </div>
 
-                <div class="grid items-center grid-cols-2 gap-16 my-16">
+                <div class="grid items-center grid-cols-2 gap-16 my-8 md:my-16 ">
 
                     <div>
                         <img src="{{ asset('img/playing.svg') }}" alt="">
                     </div>
                     <div>
-                        <h3 class="text-3xl font-bold text-green-600">customizable worksheets</h3>
-                        <p class="mt-4">
+                        <h3 class="text-lg font-bold text-green-600 md:text-3xl">customizable worksheets</h3>
+                        <p class="mt-4 text-xs md:text-base">
                             Tailoring education to individual needs is at the core of TeacherQ. Our customizable worksheets empower educators and caregivers to adapt learning materials to the unique requirements of each student. This feature ensures that lessons are not only engaging but also specifically designed to maximize the potential of every learner.
                         </p>
                     </div>
                 </div>
 
-                <div class="grid items-center grid-cols-2 gap-16 my-16">
+                <div class="grid items-center grid-cols-2 gap-16 my-8 md:my-16 ">
                     <div>
-                        <h3 class="text-3xl font-bold text-green-600">profiling reports</h3>
-                        <p class="mt-4">
+                        <h3 class="text-lg font-bold text-green-600 md:text-3xl">profiling reports</h3>
+                        <p class="mt-4 text-xs md:text-base">
                             TeacherQ provides a robust profiling and reporting system, allowing for a detailed and insightful view of each individual's progress. This feature enables educators, parents, and experts to track milestones, identify areas of strength, and address challenges proactively. By offering a comprehensive overview, we empower stakeholders to make informed decisions for the continued growth of the student.
                         </p>
                     </div>
@@ -170,14 +170,14 @@
                     </div>
                 </div>
 
-                <div class="grid items-center grid-cols-2 gap-16 my-16">
+                <div class="grid items-center grid-cols-2 gap-16 my-8 md:my-16 ">
 
                     <div>
                         <img src="{{ asset('img/collaborate.svg') }}" alt="">
                     </div>
                     <div>
-                        <h3 class="text-3xl font-bold text-green-600">collaborative support</h3>
-                        <p class="mt-4">
+                        <h3 class="text-lg font-bold text-green-600 md:text-3xl">collaborative support</h3>
+                        <p class="mt-4 text-xs md:text-base">
                             Recognizing the importance of a collaborative approach, TeacherQ facilitates seamless communication and support among educators, parents, and experts. This feature ensures that everyone involved in the student's development can actively contribute, share insights, and collectively work towards the common goal of fostering growth and well-being. TeacherQ's collaborative supports promote a holistic and inclusive educational journey for individuals on the autism spectrum.
                         </p>
                     </div>
@@ -187,9 +187,14 @@
 
         <div class="max-w-5xl min-h-screen px-8 py-16 mx-auto">
 
-            <h3 class="text-5xl font-bold text-center text-green-700">
+            <h3 class="text-2xl font-bold text-center text-green-700 md:text-5xl">
                 Bridging Potential, Building Success
             </h3>
+
+            <div class="flex justify-center mt-32">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://lottie.host/c3cc6246-1b08-45b8-95ea-9af3d9423bc0/xhXqP6nfOv.json" background="#FFFFFF" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player>
+            </div>
 
             <div class="flex justify-center mt-16">
                 <a href="{{ url('register') }}" class="inline-block px-16 py-3 font-bold text-white bg-blue-700 border-b-4 border-blue-900 rounded-md hover:bg-blue-600">Get Started</a>
